@@ -1,0 +1,25 @@
+#linkedin {
+    color: #0072B1;
+}
+
+#github {
+    color: #000;
+}
+
+#instagram {
+    color: #BC2A8D;
+}
+
+#facebook {
+    color: #090dfa;
+}
+
+#linkedin:hover, #github:hover, #instagram:hover, #facebook:hover {
+    background-color: rgb(221, 36, 18, 1);
+    transition: .2s;
+}
+
+#linkedin:hover > svg, #github:hover > svg, #instagram:hover > svg, #facebook:hover > svg {
+    color: var(--text-color);
+    transition: .2s;
+}

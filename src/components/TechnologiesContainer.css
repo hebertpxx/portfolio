@@ -1,0 +1,53 @@
+.technologies_container {
+    margin-bottom: 1rem;
+}
+
+.technologies_container .technologies_grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.technologies_container .technologies_grid .technology_card {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--button-text-color);
+    border-radius: var(--card-border-radius);
+}
+
+.technologies_container .technologies_grid .technology_card h3 {
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.technologies_container .technologies_grid .technology_card svg {
+    font-size: 15rem;
+}
+
+.technologies_container .technologies_grid #html svg {
+    color: #E44D26;
+}
+
+.technologies_container .technologies_grid #css svg {
+    color: #1572B6;
+}
+
+.technologies_container .technologies_grid #js svg {
+    color: #F0DB4F;
+}
+
+.technologies_container .technologies_grid #node svg {
+    color: #83CD29;
+}
+
+.technologies_container .technologies_grid #mysql svg {
+    color: #00618A;
+}
+
+.technologies_container .technologies_grid #react svg {
+    color: #61DAFB;
+}

@@ -1,0 +1,8 @@
+a.btn {
+    padding: 1rem 1.2rem;
+    color: var(--text-color);
+    background: var(--gradient);
+    text-decoration: none;
+    border-radius: 3rem;
+    cursor: pointer;
+}

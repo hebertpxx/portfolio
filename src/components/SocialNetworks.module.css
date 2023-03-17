@@ -1,0 +1,18 @@
+#social_networks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    gap: 1rem;
+}
+
+.social_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .6rem;
+    border-radius: var(--card-border-radius);
+    font-size: 1.3rem;
+    color: var(--button-text-color);
+    background-color: var(--bg-color-secondary);
+}
